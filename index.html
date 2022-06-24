@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <form id="form">
+                <div class="rows">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" autocomplete="off">
+                </div>
+                <div class="rows">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" autocomplete="off">
+                </div>
+                <div class="rows">
+                    <label for="Number">Number:</label>
+                    <input type="number" id="number" autocomplete="off">
+                </div>
+                <div class="rows">
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" id="male" required>Male
+                    <input type="radio" name="gender" id="female" required>Female
+                    <input type="radio" name="gender" id="other" required>Other
+                </div>
+                <div class="rows">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset" >
+                </div>
+            </form>
+        </div>
+        <div class="box" id="box2">
+            <section>
+                <table id="tableElements">
+                    <tr>
+                        <th width="20%">Name</th>
+                        <th width="28%">Email</th>
+                        <th width="15%">Number</th>
+                        <th width="10%">Gender</th>
+                        <th width="27%">Operations</th>
+                    </tr>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

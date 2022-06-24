@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#box1{
+    float: clear;
+    width: 60%;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    
+}
+#box2{
+    box-sizing: border-box;
+    float: clear;
+    width: 90%;
+
+}
+table{
+    overflow: auto;
+}
